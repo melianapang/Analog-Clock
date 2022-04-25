@@ -39,7 +39,6 @@ class NotificationApi {
   }
 
   static Future _notificationDetails() async {
-    // const sound = 'soundalarm.wav'; //Belom input sound nya
     return const NotificationDetails(
       android: AndroidNotificationDetails(
         'channelId',
